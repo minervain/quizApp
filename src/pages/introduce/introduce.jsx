@@ -19,8 +19,8 @@ function Introduce({ modlar }) {
   return (
     <div className='tanitim'>
       <div className='alt-tanitim'>
-        <h1 className='km-baslik'>Kim Milyoner Olmak İsterkiye Hoşgeldin</h1>
-        <img style={{ width: 300 }} src="https://static.birgun.net/resim/haber/2023/09/13/kim-milyoner-olmak-ister-de-buyuk-odul-5-milyon-tl-oldu.jpg" alt="" />
+        <h1 className='km-baslik'>Kim Milyoner Olmak İstemezkiye Hoşgeldin</h1>
+        <img style={{ width: 555 }} src="https://static.birgun.net/resim/haber/2023/09/13/kim-milyoner-olmak-ister-de-buyuk-odul-5-milyon-tl-oldu.jpg" alt="" />
 
         <div>Zorluk Seviyesini Seç ve Başla</div>
 
@@ -31,7 +31,7 @@ function Introduce({ modlar }) {
             </option>
           ))}
         </select>
-        <button className='introduceBtn-btn' onClick={sayfayaGit}>Başla</button>
+        <button className=' hover:bg-blue-700 text-white  font-bold py-2 px-4 rounded' onClick={sayfayaGit}>Başla</button>
       </div>
     </div>
   )

@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { useParams } from 'react-router-dom';
 import './quiz.css'
+import { toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function Quiz({ data }) {
   const { zorluk } = useParams();
@@ -26,7 +28,7 @@ function Quiz({ data }) {
       // Quiz tamamlandı, istediğiniz bir şeyi yapabilirsiniz.
       // Örneğin, sonucu göstermek veya yeniden başlatmak.
       // Bu örnek sadece tüm soruları yanıtlar ve quiz'i tamamlar.
-      alert(`Quiz tamamlandı. Toplam Puan: ${score}`);
+      toast(`Quiz tamamlandı. Toplam Puan: ${score}`);
     }
   };
 
@@ -37,24 +39,27 @@ function Quiz({ data }) {
   const currentQuestion = shuffledQuestions[currentQuestionIndex];
 
   return (
-    <div className='quiz'>
-      <h2 className='quiz-title'>Seçilen Zorluk Seviyesi: {zorluk}</h2>
-      <img style={{width:300}}  src='https://image.posta.com.tr/i/posta/75/0x410/64ccca87e4bfdd194ce93e06.jpg'/>
-      <h3>Soru {currentQuestionIndex + 1}:</h3>
-      <p>{currentQuestion.question}</p>
-      <ul className='sorular'>
-        {currentQuestion.options.map((option, index) => (
-          <div  className='sorular'>
-          <li  key={index}>
-            <button onClick={() => handleAnswer(option === currentQuestion.correctAnswer)}>
-              {option}
-            </button>
-          </li>
-          </div>
-        ))}
-      </ul>
-      <p>Puan: {score}</p>
-    </div>
+    <>
+      <p className='Puan'>Puan: {score}</p>
+      <p className='zorlukseviye'>Zorluk Seviyesi: {zorluk}</p>
+      <div className='quiz'> 
+
+        <img style={{ width: 450 }} src='https://image.posta.com.tr/i/posta/75/0x410/64ccca87e4bfdd194ce93e06.jpg' />
+        <h3>Soru {currentQuestionIndex + 1}:</h3>
+        <p>{currentQuestion.question}</p>
+        <ul className='sorular'>
+          {currentQuestion.options.map((option, index) => (
+            <div className='sorular'>
+              <li key={index}>
+                <button className='bg-white hover:bg-blue-700  font-bold py-2 px-4 rounded' onClick={() => handleAnswer(option === currentQuestion.correctAnswer)}>
+                  {option}
+                </button>
+              </li>
+            </div>
+          ))}
+        </ul>
+      </div>
+    </>
   );
 }
 

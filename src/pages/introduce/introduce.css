@@ -12,6 +12,10 @@
 }
 .alt-tanitim{
     padding: 2rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .select-option{
@@ -20,4 +24,13 @@
     background: rgb(11,77,118);
     width: 50%;
     margin: 1rem;
+}
+.km-baslik{
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+}
+
+button{
+    background: #0F6FA7;
 }

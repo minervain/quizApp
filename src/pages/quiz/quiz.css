@@ -8,6 +8,7 @@
     align-items: center;
     flex-direction: column;
     color: white;
+    z-index: -1;
 
 
 }
@@ -19,3 +20,30 @@
     list-style: upper-latin;
     
 }
+
+button{
+    color: #072ADD;
+}
+
+.Puan{
+    position: absolute;
+    color: white;
+    font: bold;
+    font-size: 1.5rem;
+    width: 12%;
+    background: linear-gradient(#0F6FA7,#0301FE,#282333);
+    text-align: center;
+    left: 1rem;
+    top: 1rem;
+    }
+    .zorlukseviye{
+        position: absolute;
+        color: white;
+        font: bold;
+        font-size: 1.5rem;
+        width: 20%;
+        background: linear-gradient(#0F6FA7,#0301FE,#282333);
+        text-align: center;
+        right: 1rem;
+        top: 1rem;
+    }
