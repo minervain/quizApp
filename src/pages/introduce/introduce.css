@@ -1,0 +1,20 @@
+.tanitim {
+    height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.alt-tanitim{
+    padding: 2rem;
+}
+
+.select-option{
+    padding: 0.3rem;
+    color: rgb(253, 254, 255);
+    background: rgb(11,77,118);
+    width: 50%;
+    margin: 1rem;
+}

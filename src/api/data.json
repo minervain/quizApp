@@ -1,0 +1,159 @@
+{
+    "easy": [
+      {
+        "question": "Hangi gezegen güneş sisteminde üçüncü sıradadır?",
+        "options": ["Mars", "Dünya", "Jüpiter", "Venüs"],
+        "correctAnswer": "Dünya"
+      },
+      {
+        "question": "Hangi renk gökkuşağının ilk rengidir?",
+        "options": ["Kırmızı", "Mavi", "Yeşil", "Mor"],
+        "correctAnswer": "Kırmızı"
+      },
+      {
+        "question": "Hangi hayvan 'eski bilgelik' sembolü olarak kabul edilir?",
+        "options": ["Kedi", "Fil", "Köpek", "Baykuş"],
+        "correctAnswer": "Baykuş"
+      },
+      {
+        "question": "Hangi gezegen 'kızıl gezegen' olarak bilinir?",
+        "options": ["Mars", "Venüs", "Uranüs", "Satürn"],
+        "correctAnswer": "Mars"
+      },
+      {
+        "question": "Hangi element periyodik tabloda 'H' sembolü ile gösterilir?",
+        "options": ["Hidrojen", "Helyum", "Azot", "Oksijen"],
+        "correctAnswer": "Hidrojen"
+      },
+      {
+        "question": "Kaç gezegen güneş sisteminde bulunur?",
+        "options": ["5", "7", "8", "9"],
+        "correctAnswer": "8"
+      },
+      {
+        "question": "Hangi ülke Avrupa'nın bir parçası değildir?",
+        "options": ["Fransa", "İspanya", "İtalya", "Türkiye"],
+        "correctAnswer": "Türkiye"
+      },
+      {
+        "question": "Hangi gezegen üzerinde 'Uzay Yürüyüşü' yapılmıştır?",
+        "options": ["Venüs", "Mars", "Jüpiter", "Satürn"],
+        "correctAnswer": "Mars"
+      },
+      {
+        "question": "Kim 'Principia Mathematica' kitabını yazmıştır?",
+        "options": ["Isaac Newton", "Galileo Galilei", "Albert Einstein", "Stephen Hawking"],
+        "correctAnswer": "Isaac Newton"
+      },
+      {
+        "question": "Hangi gezegen en büyük uydusu Phobos'a sahiptir?",
+        "options": ["Dünya", "Jüpiter", "Mars", "Satürn"],
+        "correctAnswer": "Mars"
+      }
+    ],
+    "medium": [
+      {
+        "question": "Kim Nobel Fizik Ödülü'nü kazanmış ve Schrödinger denklemi üzerine çalışmıştır?",
+        "options": ["Albert Einstein", "Niels Bohr", "Erwin Schrödinger", "Max Planck"],
+        "correctAnswer": "Erwin Schrödinger"
+      },
+      {
+        "question": "Hangi ülkenin başkenti Oslo'dur?",
+        "options": ["İsveç", "Danimarka", "Norveç", "Finlandiya"],
+        "correctAnswer": "Norveç"
+      },
+      {
+        "question": "Hangi tarihi kişilik Mona Lisa tablosunun portresini yapmıştır?",
+        "options": ["Leonardo da Vinci", "Pablo Picasso", "Vincent van Gogh", "Michelangelo"],
+        "correctAnswer": "Leonardo da Vinci"
+      },
+      {
+        "question": "Hangi gezegen üzerinde 'Büyük Kırmızı Leke' olarak bilinen bir özellik bulunur?",
+        "options": ["Jüpiter", "Mars", "Satürn", "Neptün"],
+        "correctAnswer": "Jüpiter"
+      },
+      {
+        "question": "Hangi yıl Amerika Birleşik Devletleri bağımsızlığını kazandı?",
+        "options": ["1776", "1789", "1801", "1812"],
+        "correctAnswer": "1776"
+      },
+      {
+        "question": "Hangi element periyodik tabloda 'Au' sembolü ile gösterilir?",
+        "options": ["Gümüş", "Altın", "Platin", "Galyum"],
+        "correctAnswer": "Altın"
+      },
+      {
+        "question": "Kim 'Gone with the Wind' (Rüzgar Gibi Geçti) romanını yazmıştır?",
+        "options": ["Harper Lee", "J.K. Rowling", "Margaret Mitchell", "Jane Austen"],
+        "correctAnswer": "Margaret Mitchell"
+      },
+      {
+        "question": "Hangi ülke Sahra Çölü'nde bulunur?",
+        "options": ["Mısır", "Nijerya", "Kongo", "Libya"],
+        "correctAnswer": "Libya"
+      },
+      {
+        "question": "Hangi ülke İspanya'nın bir parçasıdır?",
+        "options": ["Andorra", "Monako", "San Marino", "Vatikan Şehri"],
+        "correctAnswer": "Andorra"
+      },
+      {
+        "question": "Hangi gezegen üzerinde 'Halkalı Gezegen' olarak bilinen bir özellik bulunur?",
+        "options": ["Mars", "Satürn", "Jüpiter", "Neptün"],
+        "correctAnswer": "Satürn"
+      }
+    ],
+    "hard": [
+      {
+        "question": "Hangi element periyodik tabloda 'Fe' sembolü ile gösterilir?",
+        "options": ["Kalsiyum", "Demir", "Alüminyum", "Potasyum"],
+        "correctAnswer": "Demir"
+      },
+      {
+        "question": "Hangi şair 'Divan' adlı eseriyle ünlüdür?",
+        "options": ["Mevlana", "Necip Fazıl Kısakürek", "Fuzûlî", "Ahmet Haşim"],
+        "correctAnswer": "Fuzûlî"
+      },
+      {
+        "question": "Hangi gezegen üzerinde 'Açıklığı Olmayan Kuyu' olarak bilinen bir özellik bulunur?",
+        "options": ["Venüs", "Mars", "Jüpiter", "Uranüs"],
+        "correctAnswer": "Uranüs"
+      },
+      {
+        "question": "Hangi ülke Avrupa'da yer almaz?",
+        "options": ["Portekiz", "Polonya", "Yunanistan", "Rusya"],
+        "correctAnswer": "Rusya"
+      },
+      {
+        "question": "Hangi yıl Berlin Duvarı yıkılmıştır?",
+        "options": ["1989", "1991", "1993", "1987"],
+        "correctAnswer": "1989"
+      },
+      {
+        "question": "Kim 'Özgürlük Heykeli'ni (Statue of Liberty) tasarlamıştır?",
+        "options": ["Michelangelo", "Leonardo da Vinci", "Gustave Eiffel", "Frédéric Auguste Bartholdi"],
+        "correctAnswer": "Frédéric Auguste Bartholdi"
+      },
+      {
+        "question": "Hangi ülke Himalaya Dağları'nda yer almaz?",
+        "options": ["Nepal", "Hindistan", "Tibet", "Çin"],
+        "correctAnswer": "Çin"
+      },
+      {
+        "question": "Kim Nobel Barış Ödülü'nü kazanmış ve 'Benim Ruhum' (My Spirit) adlı kitabı yazmıştır?",
+        "options": ["Nelson Mandela", "Martin Luther King Jr.", "Mahatma Gandhi", "Desmond Tutu"],
+        "correctAnswer": "Desmond Tutu"
+      },
+      {
+        "question": "Hangi bilim insanı 'Evrenin Büyüklüğü' (The Size of the Universe) konulu bir kitap yazmıştır?",
+        "options": ["Carl Sagan", "Stephen Hawking", "Neil deGrasse Tyson", "Richard Dawkins"],
+        "correctAnswer": "Carl Sagan"
+      },
+      {
+        "question": "Hangi yıl Amerikan İç Savaşı sona ermiştir?",
+        "options": ["1863", "1865", "1867", "1870"],
+        "correctAnswer": "1865"
+      }
+    ]
+  }
+  
