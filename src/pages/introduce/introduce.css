@@ -1,10 +1,13 @@
 .tanitim {
+    margin: 0;
     height: 100vh;
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
+    background: linear-gradient(#0F6FA7,#03030B);
+
 
 }
 .alt-tanitim{

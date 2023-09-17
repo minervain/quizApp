@@ -1,5 +1,5 @@
 {
-    "easy": [
+    "Kolay": [
       {
         "question": "Hangi gezegen güneş sisteminde üçüncü sıradadır?",
         "options": ["Mars", "Dünya", "Jüpiter", "Venüs"],
@@ -51,7 +51,7 @@
         "correctAnswer": "Mars"
       }
     ],
-    "medium": [
+    "Orta": [
       {
         "question": "Kim Nobel Fizik Ödülü'nü kazanmış ve Schrödinger denklemi üzerine çalışmıştır?",
         "options": ["Albert Einstein", "Niels Bohr", "Erwin Schrödinger", "Max Planck"],
@@ -103,7 +103,7 @@
         "correctAnswer": "Satürn"
       }
     ],
-    "hard": [
+    "Zor": [
       {
         "question": "Hangi element periyodik tabloda 'Fe' sembolü ile gösterilir?",
         "options": ["Kalsiyum", "Demir", "Alüminyum", "Potasyum"],

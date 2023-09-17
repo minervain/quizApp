@@ -8,12 +8,12 @@ import data from '././api/data.json'
 
 
 function App() {
-  const Modlar=["Zor","Orta","Kolay"]
+  const Modlar=["Kolay","Orta","Zor"]
   return (
     <BrowserRouter >
       <Routes>
         <Route path='/' element={<Introduce modlar={Modlar} />} />
-        <Route path='./:zorluk/deger' element={<Quiz data={data} />} />
+        <Route path='/quiz/:zorluk' element={<Quiz data={data} />} />
       </Routes>
 
     </BrowserRouter>
